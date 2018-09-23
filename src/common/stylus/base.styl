@@ -1,0 +1,31 @@
+// 这里是一些公共的类
+body,html 
+    line-height 1
+    font-weight 200
+    font-family 'PingFang SC'
+.clearfix
+    display inline-block
+    &:after
+        display block
+        content "."
+        height 0
+        line-height 0
+        clear both
+        visibility hidden
+
+@media(-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+    .border-1px
+        &::after
+            -webkit-transform :scaleY(0.7)
+            transform :scaleY(0.7)
+@media(-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+    .border-1px
+        &::after
+            -webkit-transform :scaleY(0.5)
+            transform :scaleY(0.5)
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
