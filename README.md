@@ -29,6 +29,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ### 项目笔记
 
-下面是我学习项目时候的一些自己感觉需要记录的知识点，完全就是一个备忘，或者思路的总结，如果项目里面有不懂的参考我这个笔记应该是都能找到答案的。
+下面是我学习项目时候的一些自己感觉需要记录的知识点，完全就是一个备忘，或者思路的总结，如果项目里面有不懂的参考我这个笔记应该是都能找到答案的。这个项目虽然页面不多，但是各种功能都涉及到了，对于熟悉vue还是挺有帮助的
 
-[地址：](https://github.com/mrzqii/vue-qunaer/tree/master/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0)
+[笔记的地址](https://github.com/mrzqii/vue-qunaer/tree/master/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0)
