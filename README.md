@@ -31,4 +31,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 下面是我学习项目时候的一些自己感觉需要记录的知识点，完全就是一个备忘，或者思路的总结，如果项目里面有不懂的参考我这个笔记应该是都能找到答案的。
 
-地址：[地址：](https://github.com/mrzqii/vue-qunaer/tree/master/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0)
+[地址：](https://github.com/mrzqii/vue-qunaer/tree/master/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0)
