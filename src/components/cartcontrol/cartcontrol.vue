@@ -32,8 +32,6 @@ export default {
 
     methods: {
         addCart(event){
-            console.log('event:',event);
-            
             if(!event._constructed){
                 return
             }
@@ -43,7 +41,6 @@ export default {
             }else{
                 this.food.count++;
             }
-            console.log('event.target:',event.target);
             // 注册一个add事件，父组件可以监听这个事件，传递的参数是点击的这个节点
             this.$emit('add', event.target);
         },

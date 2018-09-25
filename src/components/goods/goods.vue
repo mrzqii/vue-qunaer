@@ -1,4 +1,4 @@
-<!-- 商家 商品 组件  -->
+<!-- 商品 组件  -->
 <template>
 <div>
   <div class="goods">

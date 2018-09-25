@@ -28,7 +28,7 @@
       border-bottom 1px solid rgba(255,255,255,.2)
     .title
       font-size 14px
-      flex-wrap 700
+      font-weight 700
       color #ffffff
       line-height 4px
       padding 0 12px

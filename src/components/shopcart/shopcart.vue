@@ -199,14 +199,19 @@ export default {
     //       this.drop(target)
     //   },
     // 在小球下落之前的回调函数
+    
     beforeDrop(el) {
         let count = this.balls.length;
         while (count--) {
           let ball = this.balls[count];
           if (ball.show) {
-            let rect = ball.el.getBoundingClientRect();
+              
+              
+            let rect = ball['el'].getBoundingClientRect();
             let x = rect.left - 32;
             let y = -(window.innerHeight - rect.top - 22);
+            
+            
             el.style.display = '';
             el.style.webkitTransform = `translate3d(0,${y}px,0)`;
             el.style.transform = `translate3d(0,${y}px,0)`;
